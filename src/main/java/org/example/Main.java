@@ -51,11 +51,12 @@ public class Main {
 
         //TODO:
 
-        String emptyValue = "hello hello";
 
 //        Path path = Paths.get("C:\\\\Users\\\\Lyubanya\\\\Desktop\\\\testFile.txt");
         String someString = "Hello World";
+
         byte[] bytes = someString.getBytes();
+        String named = "dusya_kukusya";
 
         try {
             Files.write(path_test, bytes);

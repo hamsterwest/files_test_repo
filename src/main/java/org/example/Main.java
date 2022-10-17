@@ -57,6 +57,7 @@ public class Main {
 
         byte[] bytes = someString.getBytes();
         String named = "dusya_kukusya";
+        int per = 2 + 9;
 
         try {
             Files.write(path_test, bytes);
